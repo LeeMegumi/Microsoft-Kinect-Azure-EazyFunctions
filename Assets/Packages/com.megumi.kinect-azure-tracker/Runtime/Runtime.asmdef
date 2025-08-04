@@ -1,0 +1,19 @@
+{
+    "name": "KinectAzureTracker.Runtime",
+    "rootNamespace": "KinectAzureTracker",
+    "references": [
+        "Unity.Mathematics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Microsoft.Azure.Kinect.BodyTracking.dll",
+        "Microsoft.Azure.Kinect.Sensor.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

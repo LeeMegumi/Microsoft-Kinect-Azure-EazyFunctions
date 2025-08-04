@@ -1,0 +1,31 @@
+{
+  "name": "com.megumi.kinect-azure-tracker",
+  "version": "1.0.0",
+  "displayName": "Kinect Azure Multi-Body Tracker",
+  "description": "A comprehensive Unity package for Microsoft Azure Kinect multi-body tracking with easy-to-use functions and depth image display capabilities.",
+  "unity": "6.0",
+  "keywords": [
+    "kinect",
+    "azure",
+    "tracking",
+    "skeleton",
+    "depth",
+    "computer-vision",
+    "motion-capture"
+  ],
+  "author": {
+    "name": "Megumi",
+    "email": "32543017+LeeMegumi@users.noreply.github.com",
+    "url": "https://github.com/LeeMegumi"
+  },
+  "dependencies": {
+    "com.unity.mathematics": "1.2.1"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Tracking Example",
+      "description": "Basic example showing how to use the Kinect Azure tracker",
+      "path": "Samples~/BasicExample"
+    }
+  ]
+}
