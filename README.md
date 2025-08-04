@@ -10,11 +10,11 @@
 
 #### \## 特色簡介
 
-\* \*\*一鍵啟動\*\*：內建 `Kinect Launcher`，開場景即開始擷取深度與骨架。  
+一鍵啟動：內建 `Kinect Launcher`，開場景即開始擷取深度與骨架。  
 
-\* \*\*Easy\_Functions API\*\*：提供多項常用函式，兩行程式即可讀取人數、關節座標、切換 UI 顯示等。  
+Easy\_Functions API：提供多項常用函式，兩行程式即可讀取人數、關節座標、切換 UI 顯示等。  
 
-\* \*\*完整範例\*\*：`Samples/BasicExample` 場景示範即時偵測、深度影像顯示與快捷鍵操作。
+完整範例：`Samples/BasicExample/KinectAzure_EazyUse` 場景示範即時偵測、深度影像顯示與快捷鍵操作。
 
 ##### ---
 
@@ -22,7 +22,7 @@
 
 1\. 下載並解壓 \*\*Microsoft-Kinect-Azure-EazyFunctions\*\* 專案。  
 
-&nbsp;  建議以 \*\*Unity 2020.3.53f1\*\* 或相容版本開啟。  
+&nbsp;  建議以 \*\*Unity 6000.0.53f1\*\* 或相容版本開啟。  
 
 2\. 安裝 \*\*Microsoft Azure Kinect SDK\*\* 與 \*\*Body Tracking SDK\*\*  
 
@@ -32,7 +32,7 @@
 
 3\. 於 Unity 專案中開啟範例場景：  
 
-&nbsp;  `Assets/Packages/com.megumi.kinect-azure-tracker/Samples/BasicExample/BasicExample.unity`
+&nbsp;  `Assets/Packages/com.megumi.kinect-azure-tracker/Samples/BasicExample/KinectAzure_EazyUse.unity`
 
 ##### ---
 
@@ -148,7 +148,7 @@
 
 1\. Download and unzip \*\*Microsoft-Kinect-Azure-EazyFunctions\*\*.  
 
-&nbsp;  Open with \*\*Unity 2020.3.53f1\*\* (or a compatible LTS).  
+&nbsp;  Open with \*\*Unity 6000.0.53f1\*\* (or a compatible LTS).  
 
 2\. Install \*\*Azure Kinect SDK\*\* and \*\*Body Tracking SDK\*\* including \*Kinect Azure Viewer\* and \*Body Tracking\* modules.  
 
@@ -156,7 +156,7 @@
 
 3\. Open the sample scene:  
 
-&nbsp;  `Assets/Packages/com.megumi.kinect-azure-tracker/Samples/BasicExample/BasicExample.unity`
+&nbsp;  `Assets/Packages/com.megumi.kinect-azure-tracker/Samples/BasicExample/KinectAzure_EazyUse`
 
 
 
