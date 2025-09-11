@@ -92,8 +92,6 @@ Easy\_Functions API：提供多項常用函式，兩行程式即可讀取人數�
 
 ###### | `IsRaisingBothHands(bodyId=0)` | 是否舉雙手。 |
 
-###### | `IsWaving(bodyId=0)` | 是否招手。 |
-
 ##### ---
 
 ###### \## 鍵盤快捷鍵（範例場景）
@@ -215,8 +213,6 @@ Easy\_Functions API：提供多項常用函式，兩行程式即可讀取人數�
 ###### | `EstimateBodyHeight(bodyId=0)` | Rough height estimation. |
 
 ###### | `IsRaisingBothHands(bodyId=0)` | Checks if both hands are raised. |
-
-###### | `IsWaving(bodyId=0)` | Checks if waving with right hand. |
 
 # 
 

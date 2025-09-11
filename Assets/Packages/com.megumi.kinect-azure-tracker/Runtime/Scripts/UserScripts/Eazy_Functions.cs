@@ -595,21 +595,5 @@ public class Easy_Functions : MonoBehaviour
 
         return leftHand.y > head.y && rightHand.y > head.y;
     }
-
-    /// <summary>
-    /// 檢查指定身體是否在做招手動作
-    /// </summary>
-    public bool IsWaving(uint bodyId = 0)
-    {
-        Vector3 rightHand = GetJointPosition(JointId.HandRight, bodyId);
-        Vector3 rightShoulder = GetJointPosition(JointId.ShoulderRight, bodyId);
-
-        if (rightHand == Vector3.zero || rightShoulder == Vector3.zero)
-            return false;
-
-        // 檢查右手是否在肩膀高度以上
-        return rightHand.y > rightShoulder.y;
-    }
-
     #endregion
 }
